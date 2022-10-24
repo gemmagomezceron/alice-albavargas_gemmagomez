@@ -1,0 +1,124 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+</style>
+
+
+
+body{
+    background-color: #f2f2f2;
+    margin:0
+
+}
+
+.container{
+    position: relative;
+    align-items: stretch;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+}
+
+.container .box{
+    width: 400px;
+    height: 600px;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box; 
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0px;
+    flex-grow: -2;
+}
+
+.container .box .sedans{
+    background-color: #e38826;
+    padding: 40px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.container .box .suvs{
+    background-color: #006970;
+    padding: 40px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.container .box .luxury{
+    background-color: #004241;
+    padding: 40px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+}
+
+.container .box .icon{
+    position: relative;
+
+
+}
+
+.content h1{
+    color: #f2f2f2;
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+.content p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.push{
+    font-family: 'Lexend Deca', sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+    width: 100px;
+    height: 45px;
+    border-radius: 200px;
+    border: 2px solid #ffffff;
+    padding: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+.push:hover .sedans{
+    color: #e38826;
+}
+
+.push:hover .suvs{
+    color: #006970;
+}
+
+.push:hover .luxury{
+    color: #004241;
+}
+
+
+
+.push p{
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.75);
+
+}
+
+.push:hover p{
+    color: transparent;
+}
